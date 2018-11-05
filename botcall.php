@@ -13,14 +13,13 @@ function send($phone){
                 echo $asw."\n";
 }
 echo "
-############################################################
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     Spammer Call From TOKOPEDIA
-        Author By   : inYourderaM
+        Author By   : inYourdreaM
         Contact Me  : dota90992@gmail.com
-        My Team     : CLAY
-     Penggunaannya  : Bisa Menggunakan [08/62]
-###########################################################\n";
-echo "Nomor\nInput : ";
+        My Team     : 404 Not Found
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
+echo "Nomor\nMasukkan nomornya njing!! : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
